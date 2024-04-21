@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="home.css">
+    <link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet">
+    <title>Home_Title</title>
+    <script src="home.js"></script>
+    
+</head>
+<body>
+
+<header>
+    謎解き純喫茶の採用試験
+</header>
+
+
+<div class="tab-wrap">
+    <input id="TAB-01" type="radio" name="TAB" class="tab-switch" checked="checked" /><label class="tab-label" for="TAB-01">Story</label>
+    <div class="tab-content">
+    	<img src="you.png" width=35%><br>
+        あなたは高校2年生。<br>
+        お小遣いを稼ぐために始めたバイトは喫茶店のウエイター。<br><br>
+        バイト中に開発中のスイーツを食べるという<br>
+        邪な考えで求人に応募をしたところ、採用が決まり、今日がその初日。<br><br>
+        制服に身を包んだあなたにマスターは言いました。<br><br>
+        「正式採用は今日の働きぶりを見て決めさせてもらうよ。<br>
+        うちは《謎解き純喫茶》だから注文方法も特殊なんだ」<br><br>
+        「な...謎解きですか？」<br><br>
+        「求人にもそう書いてあったよね？」<br><br>
+        なんと、あなたはスイーツに夢中で、詳細をすっかり読み飛ばしていました。<br>
+        そう、この喫茶店は《謎解き純喫茶》、<a>注文は全て謎解きで行われるのです。</a><br><br>
+        あなたは今日一日の接客を乗り切り、晴れてアルバイトとなることができるのでしょうか。<br><br>
+        <details> <summary>
+        <h2>～Case1～</h2></summary>
+        カランラン<br>
+        「いらっしゃいませ」<br>
+        最初に来店したのは、あなたと同じ女子高生でした。<br>
+        <img src="jk.png" width=35%><br>
+        「あれ？　あなたってこれまで働いていらしました？」<br>
+        「ええと...今日が初めてです」<br>
+        「そうなんですね！　嬉しいな！　あなたも謎解きがお好きで？」<br>
+        「いやぁ～～～～～、まぁ、はい」（ぐいぐいくるな）<br>
+        「ふふっ、もっと常連になっちゃうなぁ～」<br>
+        そう言うがはやい、彼女はがさがさと鞄をあさると一枚の紙を取り出した。<br>
+        「では、こちらを頂けますか？」<br>
+        「はい、ご注文ですね」（……うわっ！　ほんとに謎解きだ）<br><br>
+        
+        「注文がわかったら私に教えてくださいね」<br>
+        カウンターでコップを拭いているマスターが言いました。どうやら手伝ってもらうことは望めないようです。<br><br>
+        あなたは覚悟を決め、謎に向かい合うのでした。<br><br>
+        <details> <summary>謎を見る</summary>
+        <img src="quiz1.png" width=40%>
+        </details>
+        <br><br>
+
+        <div>
+           <label>
+            回答をマスターに伝える
+           <input type="text" id="answer1">
+           </label>
+           <button class="btn" onClick="check1();">決定！</button>
+        </div>
+
+        <p id='result1'></p>
+        <details id="next1"> <summary></summary>
+        <br>
+        あなたはおそるおそるクリームソーダを差し出しました。<br>
+        「お待たせしました。ク…クリームソーダです」<br>
+        「そう！　これ、たまに無性に飲みたくなるの！」<br><br>
+        あなたは胸をなでおろしました。（あってた～～～）<br><br><br>
+        「じゃあまた来ますね～～」<br><br>
+        クリームソーダを飲み干して、<br>
+        ひとしきりあなたとマスターとおしゃべりをした、彼女は帰っていきました。<br><br>
+        ・<br><br>
+        彼女が帰った後、マスターは彼女の残したオーダー用紙に何やら書き込みをしていました。<br><br>
+        「何をしているんですか？」<br>
+        「保管用のタグ付けをしているんだよ。ほら、会員番号と日付で。<br>
+        mediaタブに切り替えて、《CD-0608》と入力すれば、今の問題を見返すことができるよ」<br>
+        若干、第四の壁が揺らぎかけたとあなたは思いましたが、無視することにしました。<br><br>
+
+        <details> <summary>
+        <h2>～Case2～</h2></summary>
+        次に来店したのは、険しい目つきをした初老の男でした。<br><br>
+        <img src="oj.png" width=35%><br>
+        「これ」<br><br>
+        男は紙をあなたに手渡すと、手に持っていた新聞を広げ、<br>
+        読み始めてしまいました。<br>
+        これでは対話拒否ではありませんか。<br>
+        ヒントもくそもありません。<br>
+        あなたはおとなしく謎を解くことにしました。<br><br>
+
+        <details> <summary>謎を見る</summary>
+            <img src="quiz2.png" width=40%>
+            </details>
+            <br><br>
+    
+            <div>
+               <label>
+                回答をマスターに伝える
+               <input type="text" id="answer2">
+               </label>
+               <button class="btn" onClick="check2();">決定！</button>
+            </div>
+    
+        <p id='result2'></p>
+        <details id="next2"> <summary></summary>
+        <br>
+        「お待たせしました」<br> 
+        「いいね。これだよこれ」<br>
+        男は新聞紙を丁寧にたたみ、<br>
+        これまた丁寧な手つきでサンドイッチをほうばりました。<br><br>
+        
+        <details> <summary>
+        <h2>～Case3～</h2></summary>
+        「次に来た人が最後のお客さんかな」<br>
+        日が陰ってきたころ、マスターがあなたにそう言いました。<br>
+        「ほんっ……！　はい、わかりました」<br>
+        内心、もう来ないで～、と思っていたところに、来店を知らせる音が鳴ります。<br>
+        「いらっしゃいませ」<br>
+        あなたは努めて元気に言いました。<br>
+        <img src="joren.png" width=35%><br>
+        「初めての人だね。今日から？」<br>
+        「はい」<br>
+        「じゃあ、ちょっと申し訳ないことをしちゃったかも。<br>
+        これを下さいな。もう保管用のコードは振っといたから」<br>
+        そう言って、例のごとく暗号が渡されました。<br><br>
+        <details> <summary>謎を見る</summary>
+            <img src="quiz3.png" width=40%>
+            </details>
+            <br><br>
+    
+            <div>
+               <label>
+                回答をマスターに伝える
+               <input type="text" id="answer3">
+               </label>
+               <button class="btn" onClick="check3();">決定！</button>
+            </div>
+    
+        <p id='result3'></p>
+        <details id="next3"> <summary></summary>
+        <br>
+        い・つ・も・の、ねぇ～～～～～～～～～<br><br>
+        あなたはマスターのもとに相談に行きました。<br>
+        「あの...マスター...あのお客さんの、いつものって…？」<br>
+        「ああ、そう来ましたか...私が先週言ったんですよ、<br>
+        『もう常連さんだし、いつものって頼んでもらってもいいですよ』<br>
+        ってね」<br><br>
+        （何が、ってね、だよ。こちとらそれで迷惑してんのよ。<br>
+        百歩譲ってなぜそのタイミング？<br>
+        私、もう応募してましたよね？）<br>
+        とあなたは言えるはずもなく...<br><br>
+        しかし、ここであなたは気づきました。<br><br>
+
+        確かにマスターは<br>
+        「私が先週言ったんですよ」と言いました。<br>
+        あなたは一筋の光明が見えました。<br><br>
+        さて、あなたはオーダーを特定し、採用試験を乗り切ることができるのでしょうか。
+
+        <p id='result4'></p>
+        <details id="next4"> <summary></summary>
+        <br><br><br>
+        「今日はお疲れ様」<br>
+        最後のお客さんを見送り、机を拭いているとマスターが声をかけてきました。<br><br>
+        「お疲れ様です」<br>
+        「君の働きは素晴らしかったよ。<br>
+        「是非ともこれからも働いてくれないかな？」<br><br>
+
+        「・・・はい！」<br><br>
+        こうしてあなたは、謎解き純喫茶の一員となったのでした。
+
+
+        </details> 
+        </details>       
+        </details>
+        </details>
+        </details>
+        </details>
+        
+    </div>
+    <input id="TAB-02" type="radio" name="TAB" class="tab-switch" /><label class="tab-label" for="TAB-02">Medium</label>
+    <div class="tab-content">
+        <br>
+        ここに見たい文書のコードを入力：
+        <input type="text" id="medium">
+               </label>
+               <button class="btn" onClick="view();">決定！</button></br></br>
+        <img src="XX-0603.png" id="medium_view"  width=40%>
+    </div>
+
+</div>
+
+
+
+
+</body>
+</html>

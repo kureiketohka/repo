@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css"> 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+   
     <script type="text/javascript">
         $(document).ready(function(){
             $('.slider').bxSlider({
@@ -20,47 +21,71 @@
     </script>
 
 </head>
-
-<header>
-    東揚羽市
-</header>
 <body>
+<script src="template.js" onload="header();"></script>
+
+
 <nav class="sample01">
     <ul >
-        <li><a href="#">HOME</a>
+        <li><a href="#">ホーム</a>
         </li>
-        <li><a href="#">LIFE<span>▼</span></a>
-            <ul style="margin-left:110px">
+        
+        <li><a href="#">生活<span>▼</span></a>
+            <ul style="margin-left:120px">
                 <li><a href="#">各種手続き</a></li>
                 <li><a href="#">転入/転出</a></li>
                 <li><a href="#">問い合わせ窓口</a></li>
             </ul>
         </li>
-        <li><a href="#">IVENT<span>▼</span></a>
-            <ul style="margin-left:215px">
+        <li><a href="#">イベント<span>▼</span></a>
+            <ul style="margin-left:230px">
                 <li><a href="#">イベントスケジュール</a></li>
                 <li><a href="#">観光</a></li>
                 <li><a href="#">風土/特産物</a></li>
             </ul>
         </li>
-        <li><a href="#">ABOUT<span>▼</span></a>
-            <ul style="margin-left:355px">
+        <li><a href="#">市について<span>▼</span></a>
+            <ul style="margin-left:376px">
                 <li><a href="#">名産品</a></li>
                 <li><a href="#">住民統計</a></li>
                 <li><a href="#">地理データ</a></li>
             </ul>
         </li>
+        <li><a href="#">みんなのページ<span>▼</span></a>
+            <ul style="margin-left:540px">
+                <li><a href="#">市民報</a></li>
+                <li><a href="#">掲示板</a></li>
+                <li><a href="#">ギャラリー</a></li>
+            </ul>
+        </li>
+       
 
     </ul>
-
-    <ul class="slider">
-        <li><img src="./home_img/img1.jpg" alt="スライドショー画像1" width=100%></li>
-        <li><img src="./home_img/img2.jpg" alt="スライドショー画像2" width=100%></li>
-        <li><img src="./home_img/img3.jpg" alt="スライドショー画像3" width=100%></li>
-    </ul1>
 </nav>
+<ul class="slider">
+    <li><img src="./home_img/img1.jpg" alt="スライドショー画像1" width=100%></li>
+    <li><img src="./home_img/img2.jpg" alt="スライドショー画像2" width=100%></li>
+</ul>
 
 
+<div class="flame01">
+    <h3>更新情報</h3>
+    2024/05/16 ホームページを公開しました。<br>
+    2024/05/16 掲示板に「謎解き純喫茶の採用試験」が掲載されました
+</div>
+<div class="flame01">
+    <h3>東揚羽市役所</h3>
+    <h4>所在</h4>〒○○○-○○○○　東揚羽市南区1-2-1
+    <h4>アクセス</h4>市営バス　市役所駅徒歩4分
+    <h4>開庁時間</h4>月曜日～金曜日　午前8時45分～午後5時30分（休日/祝日/年末年始を除く）
+    <h4>マップ</h4>
+    <p class="infobox">
+        <img src="./home_img/img1.jpg">
+    </p>
+</div>
+
+<script src="template.js" onload="footer();">
+</script>
 
 </body>
 </html>

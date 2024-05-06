@@ -1,0 +1,21 @@
+.flame01 {
+    
+    margin: 2em auto;
+    padding: 1em;
+    width: 95%;
+    background-color: #ffffff;
+    box-shadow: 0 0 5px 1.5px #a9a9a9;
+}
+box {
+    display: flex;
+}
+
+top_word {
+    font-weight: bold;
+    font-size: 2em;
+    color: #e0bf15;
+}
+
+text_box {
+    padding: 3%;
+}

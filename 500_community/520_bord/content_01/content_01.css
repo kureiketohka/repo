@@ -1,9 +1,10 @@
 table {
     border: solid 1px #000000;
+    background-color: #b9b9b9;
   }
   
   tr {
-    background-color: #b9b9b9;
+  
   }
 
   td {

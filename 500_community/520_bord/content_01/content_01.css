@@ -2,6 +2,10 @@ table {
     border: solid 1px #000000;
   }
   
+  tr {
+    background-color: #b9b9b9;
+  }
+
   td {
     font-size: 12px;
     padding: .2em .5em;

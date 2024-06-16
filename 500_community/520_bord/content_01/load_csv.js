@@ -18,16 +18,10 @@ function csv_array(data) {
 	}
 	let insertElement = ''; //テーブルタグに表示する用の変数
 	dataArray.forEach((element) => { //配列の中身を表示
-		//insertElement += '<tr>';
 		insertElement += '<div class="box1">';
-		//insertElement += '<ul>';
 		element.forEach((childElement) => {
 			insertElement += `<p>${childElement}</p>`;
-			//insertElement += `<li>${childElement}</li>`;
-			//insertElement += `<td>${childElement}</td>`;
 		});
-		//insertElement += '</tr>';
-		//insertElement += '</ul>';
 		insertElement += '</div>';
 	});
 	output_csv.innerHTML = insertElement; // 表示

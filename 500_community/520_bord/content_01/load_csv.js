@@ -22,7 +22,7 @@ function csv_array(data) {
 		insertElement += '<box>';
 		//insertElement += '<ul>';
 		element.forEach((childElement) => {
-			insertElement += `<div>${childElement}</div><br>`;
+			insertElement += `${childElement}<br>`;
 			//insertElement += `<li>${childElement}</li>`;
 			//insertElement += `<td>${childElement}</td>`;
 		});

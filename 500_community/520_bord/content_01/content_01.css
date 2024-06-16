@@ -2,12 +2,11 @@ table {
     border: solid 1px #000000;
     background-color: #b9b9b9;
   }
-  
-  tr {
-  
-  }
-
   td {
     font-size: 12px;
     padding: .2em .5em;
   }
+
+box {
+  border: solid 1px #000000;
+}

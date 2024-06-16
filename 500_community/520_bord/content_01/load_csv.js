@@ -18,11 +18,12 @@ function csv_array(data) {
 	}
 	let insertElement = ''; //テーブルタグに表示する用の変数
 	dataArray.forEach((element) => { //配列の中身を表示
-		insertElement += '<tr>';
+		//insertElement += '<tr>';
 		element.forEach((childElement) => {
-			insertElement += `<td>${childElement}</td>`
+			insertElement += `<c>${childElement}</c><br>`;
+			//insertElement += `<td>${childElement}</td>`;
 		});
-		insertElement += '</tr>';
+		//insertElement += '</tr>';
 	});
 	output_csv.innerHTML = insertElement; // 表示
 }

@@ -19,15 +19,15 @@ function csv_array(data) {
 	let insertElement = ''; //テーブルタグに表示する用の変数
 	dataArray.forEach((element) => { //配列の中身を表示
 		//insertElement += '<tr>';
-		insertElement += '<box>'
-		insertElement += '<ul>'
+		insertElement += '<box>';
+		insertElement += '<ul>';
 		element.forEach((childElement) => {
 			insertElement += `<li>${childElement}</li>`;
 			//insertElement += `<td>${childElement}</td>`;
 		});
 		//insertElement += '</tr>';
-		insertElement += '</ul>'
-		insertElement += '</box>'
+		insertElement += '</ul>';
+		insertElement += '</box>';
 	});
 	output_csv.innerHTML = insertElement; // 表示
 }

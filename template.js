@@ -1,5 +1,5 @@
 function header() {
-    document.write('<header><img src="/home_img/city_rogo.png" alt="市のマーク" width=6.5%><b>&nbsp;東揚羽市</b></header>');
+    document.write('<header><img src="/repo/home_img/city_rogo.png" alt="市のマーク" width=6.5%><b>&nbsp;東揚羽市</b></header>');
 }
 
 

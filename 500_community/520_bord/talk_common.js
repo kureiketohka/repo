@@ -1,4 +1,4 @@
-const output_csv = document.getElementById('test_csv');
+const output_csv = document.getElementById('talk_csv');
 
 function csv_data(dataPath) {
 	const request = new XMLHttpRequest(); // HTTPでファイルを読み込む

@@ -26,4 +26,4 @@ function csv_array(data) {
 	});
 	output_csv.innerHTML = insertElement; // 表示
 }
-csv_data('test.csv'); // csvのパス
+csv_data('talk.csv'); // csvのパス

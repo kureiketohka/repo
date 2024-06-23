@@ -20,7 +20,7 @@ function csv_array(data) {
 	dataArray.forEach((element) => { //配列の中身を表示
 		insertElement += '<div class="box1">';
 		element.forEach((childElement) => {
-			insertElement += `<p>${childElement}</p>`;
+			insertElement += `<p>${childElement}</p><hr>`;
 		});
 		insertElement += '</div>';
 	});

@@ -27,10 +27,36 @@
       content: '';
       width: 12px;
       height: 12px;
-      background: #4a99c9;
+      background: #ffd117;
       position: absolute;
       left: 45.5px;
       top: 24px;
       border-radius: 100%;
     }
   }
+
+  .leaf {
+    width: 6px;
+    height: 6px;
+    border-radius: 0 6px;
+    background-color: #9ce081;
+    transform: rotate(0deg);
+    position: absolute;
+    top: 1.1em;
+  }
+
+  .circle{
+    width: 12px;
+    height: 12px;
+    background: #ffd117;
+    border-radius: 100%;
+    position: relative; /* 今の位置を基準 */
+    top: 1.5em;
+    margin-right: 1.7em;
+  }
+  .field {
+    display: flex;
+    justify-content: start;
+    position: relative; /* 今の位置を基準 */
+    right: 2.35em;
+    }
